@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>photogallery</title>
+</head>
+<body>
+    <!-- Header and Nav -->
+    <header>
+        <h1 id="top">TK PHOTOGRAPHY</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#top">Top</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- About & Photo Gallery -->
+    <main>
+        <section id="about">
+            <h2>ABOUT</h2>
+            <p>Hello!</p>
+            <br>
+            <p>I'm TK and I'm a photographer. I love looking at life through the lens of my camera. Landscape photography is my specialty and it's taken me all over the world.</p>
+            <br>
+        </section>
+        <section id="gallery">
+            <h2>GALLERY</h2><br>
+            <p>Here are some highlights of my work. The locations and year are in the caption.</p>
+            <div class="picGrid">
+                <figure>
+                    <img src="images/Chile.png" alt="Picture of an ocean shore in Chile.">
+                    <figcaption class="caption1">Chile, 2001</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/Guatemala.png" alt="Picture of flowers with a huge mountainous landscape in the background in Guatemala.">
+                    <figcaption class="caption2">Guatemala, 1997</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/Hawaii.png" alt="Picture of a green mountain in Hawaii from a high altitude.">
+                    <figcaption class="caption1">Hawaii, 2010</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/Iran.png" alt="Picture of grasslands in Iran.">
+                    <figcaption class="caption5">Iran, 1999</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/Ireland.png" alt="Picture of high contrast greenery mountain side in Ireland.">
+                    <figcaption class="caption5">Ireland, 2012</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/Italy.png" alt="Picture of a blue lake surrounded by mountains in Italy.">
+                    <figcaption class="caption4">Italy, 2015</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/Moab-Desert.png" alt="Picture of a mountain opening in the Moab-Desert.">
+                    <figcaption class="caption1">Moab Desert, 2020</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/Rocky-Mountains.png" alt="Picture of Rocky Mountains near an ocean side.">
+                    <figcaption class="caption3">Rocky Mountains, 2009</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/Switzerland.png" alt="Picture of snowy mountainside in Switzerland.">
+                    <figcaption class="caption3">Switzerland, 2014</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/UK.png" alt="Picture of green grasslands in the UK.">
+                    <figcaption class="caption3">UK, 2005</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/USA.png" alt="Picture of green grass lands with flowers in USA.">
+                    <figcaption class="caption3">USA, 2021</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/Wyoming.png" alt="Picture of tall pine trees surrounding a lake with mountain in the background in Wyoming.">
+                    <figcaption class="caption2">Wyoming, 2021</figcaption>
+                </figure>
+            </div>
+        </section>
+
+        <!-- Form -->
+        <section id="contact">
+            <h2>CONTACT</h2><br>
+            <p>Please fill out this form and I'll connect with you soon.</p><br>
+            <form>
+                <p>Your contact information</p>
+                <label for="fullName">Name</label>
+                <input type="text" name="fullName" id="fullName" placeholder="Your full name">
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email" placeholder="Enter your email address">
+                <label for="message">Message</label>
+                <textarea name="message" id="message" placeholder="What can I help you with?"></textarea>
+                <input type="submit" value="Submit">
+            </form>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p><small>Copyright 2021 TK Photography</small></p>
+    </footer>
+</body>
+</html>
